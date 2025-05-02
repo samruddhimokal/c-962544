@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -35,4 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .action-button {
   @apply flex items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-soul-light/50 border border-transparent hover:border-soul-primary/20 transition-all duration-200;
+}
+
+.soulstory-title {
+  @apply font-bold bg-gradient-to-r from-soul-primary via-soul-lavender to-soul-secondary bg-clip-text text-transparent;
 }

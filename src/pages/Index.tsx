@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Moon, Sun, BookOpen, MessageSquare, LogIn, ArrowRight, Home, Book, Star, History, Library, Bookmark, Search, Plus } from 'lucide-react';
 
@@ -46,7 +45,7 @@ const LoginScreen = ({ onLogin }: { onLogin: () => void }) => {
               </div>
             </div>
           </div>
-          <h1 className="text-3xl font-bold mt-4 text-soul-primary font-heading">SoulStory</h1>
+          <h1 className="text-3xl font-bold mt-4 soulstory-title font-heading">SoulStory</h1>
           <p className="text-soul-subtext mt-2">Magical stories for kids</p>
         </div>
         
@@ -88,7 +87,7 @@ const HomeScreen = ({ onNavigate }: { onNavigate: (screen: string) => void }) =>
       <header className="p-4 border-b border-soul-light/50 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <BookOpen className="h-6 w-6 text-soul-primary" />
-          <h1 className="text-xl font-bold text-soul-primary font-heading">SoulStory</h1>
+          <h1 className="text-xl font-bold soulstory-title font-heading">SoulStory</h1>
         </div>
         <div className="flex gap-3">
           <button className="p-2 rounded-full bg-white shadow-sm">
