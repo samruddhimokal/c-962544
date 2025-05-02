@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,13 +25,6 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        chatgpt: {
-          sidebar: "#171717",
-          main: "#212121",
-          secondary: "#444654",
-          hover: "#2A2B32",
-          border: "#4E4F60"
-        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -59,6 +53,28 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        chatgpt: {
+          sidebar: "#171717",
+          main: "#212121",
+          secondary: "#444654",
+          hover: "#2A2B32",
+          border: "#4E4F60"
+        },
+        // Soul Story theme colors
+        soul: {
+          primary: "#9b87f5",  // Primary purple
+          secondary: "#7E69AB", // Darker purple
+          light: "#E5DEFF",    // Light purple
+          lighter: "#F2EFFF",  // Even lighter purple (background)
+          lavender: "#D6BCFA", // Lavender accent
+          accent: "#a594f9",   // Button accent color
+          text: "#333333",     // Main text color
+          subtext: "#666666"   // Secondary text color
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        heading: ['Poppins', 'sans-serif']
       },
       borderRadius: {
         lg: "var(--radius)",

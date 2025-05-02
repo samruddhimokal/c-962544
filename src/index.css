@@ -1,15 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply bg-chatgpt-main text-white;
+  @apply bg-soul-lighter text-soul-text font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading;
+}
+
+.btn-primary {
+  @apply bg-soul-accent text-white rounded-full py-2 px-6 font-medium transition-all duration-200 hover:shadow-lg hover:shadow-soul-primary/20;
+}
+
+.btn-outline {
+  @apply border border-soul-accent text-soul-accent rounded-full py-2 px-6 font-medium transition-all duration-200 hover:bg-soul-accent hover:text-white;
+}
+
+.card-soul {
+  @apply bg-white rounded-xl p-4 shadow-md border border-soul-light/50;
+}
+
+.nav-item {
+  @apply px-3 py-1 text-soul-text hover:text-soul-primary transition-colors;
 }
 
 .sidebar-item {
-  @apply flex items-center gap-3 rounded-md px-3 py-3 text-sm transition-colors duration-200 hover:bg-chatgpt-hover cursor-pointer;
+  @apply flex items-center gap-3 rounded-md px-3 py-3 text-sm transition-colors duration-200 hover:bg-soul-light cursor-pointer;
 }
 
 .action-button {
-  @apply flex items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-chatgpt-hover/50 border border-transparent hover:border-chatgpt-border transition-all duration-200;
+  @apply flex items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-soul-light/50 border border-transparent hover:border-soul-primary/20 transition-all duration-200;
 }
