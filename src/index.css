@@ -38,5 +38,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .soulstory-title {
-  @apply font-bold bg-gradient-to-r from-soul-primary via-soul-lavender to-soul-secondary bg-clip-text text-transparent;
+  @apply font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-sky-300 bg-clip-text text-transparent;
 }
